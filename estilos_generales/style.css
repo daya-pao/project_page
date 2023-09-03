@@ -1,0 +1,159 @@
+:root {
+    --fondo_icon: #5956E9;
+    --gris_oscuro-color:#2f2f2f;
+    --secundary1_bg: #f6f6f6;
+    --secundary2_bg: #ffffff;
+    --secundary3_bg: #797979;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    border: 1px solid red;
+   height: 500vh;
+    font-size: 100%;
+}
+.encabezado_Homepage{
+    border: 1px solid blue;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.encabezado_pedido{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.encabezado_navegacion{
+    display: flex;
+
+}
+.flecha_abajo{
+    width:14px ;
+}
+.navegacion_menu{
+    display: flex;
+    gap: 43px;
+    /* margin-top: 24%; */
+}
+.navegacion_menu .link{
+    color: var(--gris_oscuro-color);
+}
+.navegacion_paginas{
+    display: flex;
+    flex-direction: column;
+}
+.btn__borde{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background: var(--secundary2_bg);
+    border: 1px solid grey;
+}
+.bg_morado{
+    width: 47px;
+    height: 45px;
+    background:var(--fondo_icon) ;
+    border-radius: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+/* fin del header */
+
+.encabezado_banner{
+    border: 1px solid white;
+    background-image: url("/imagenes/Background\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18%;
+    margin: auto;
+    width: 81%;
+    border-radius: 2em;
+}
+.banner_informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56%;
+    margin:4% auto;
+    text-align: center;
+    gap: 9px;
+    height: 34vh;
+    border: 1px solid red;
+}
+.boton_tamaño{
+    height: 4em;
+    width: 34%;
+    border-radius: 2em;
+    border: none;
+}
+.boton_tamaño:hover{
+    background-color: #797979;
+    cursor: pointer;
+    color: #f6f6f6;
+}
+.imagen_Graphics{
+    border: 1px solid black;
+    margin: auto;
+    width: 82%;
+}
+.imagen_encima{
+    width: 100%;
+}
+.color_white{
+    color: var(--secundary1_bg);
+}
+.cliente_logo{
+    border: 1px solid gold;
+    margin-top: 12%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12%;
+}
+.banner_about{
+    border: 1px solid black;
+    height: 84vh;
+}
+.about{
+    border: 1px solid red;
+    height: 60vh;
+    width: 70%;
+    margin:6% auto;
+    display: flex;
+    justify-content: center;
+
+}
+.about_informacion{
+    border: 1px solid greenyellow;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.opiniones{
+    display: flex;
+    align-items: center;
+}
+.btn__borde{
+    border: 1px solid gray;
+}
+.about_celendario{
+    border: 1px solid greenyellow;
+    width: 49%;
+}
+.imagen_tamaño{
+    width: 129%;
+    height: 72vh;
+}
+.color_grey{
+    color: var(--secundary3_bg);
+}
