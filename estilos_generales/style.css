@@ -374,7 +374,7 @@ body{
 .testimonial_content{
     border: 1px solid var(--gris_oscuro-color);
     width: 60%;
-    height: 110vh;
+    height: 108vh;
     background: var(--secundary1_bg);
     margin: auto;
     background: var(--secundary1_bg);
@@ -386,13 +386,32 @@ body{
 }
 .perfil{
     border: 1px solid red;
-    width: 89%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2%;
     text-align: center;
+}
+.perfiles{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+.perfil_2{
+    border: 1px solid blueviolet;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    text-align: center;
+}
+.display_none{
+    display: none;
 }
 .img-perfil{
     padding-top: 5%;
@@ -423,6 +442,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .comillas{
     position: absolute;
     z-index: 1;
@@ -438,7 +458,7 @@ body{
 }
 .blog_content{
     border: 1px solid rgb(3, 3, 3);
-    height: 90vh;
+    height: 83vh;
     margin-top: 3%;
 }
 .blog{
@@ -492,4 +512,19 @@ body{
     border: 0px solid gray;
     background: #ffffff;
     padding: 2%;
+}
+.Newsletter{
+    border: 1px solid maroon;
+    height: 60vh;
+}
+.imagen_Newsletter{
+    border: 1px solid blue;
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    background-image: url("/imagenes/Imagebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
 }
