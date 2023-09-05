@@ -13,11 +13,10 @@
 }
 body{
     height: 500vh;
-    font-size: 100%;
+    font-size: clamp(1.5vw,15rem,1.5vw);
 }
 .encabezado_Homepage{
-    border: 1px solid blue;
-    height: 15vh;
+    height: 6vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,21 +25,24 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
+    gap: 2vw;
+}
+.logo{
+    width: 20vw;
 }
 .encabezado_navegacion{
     display: flex;
-
 }
 .flecha_abajo{
-    width:14px ;
+    width:1em;
 }
 .navegacion_menu{
     display: flex;
-    gap: 43px;
+    gap: 2em;
 }
 .navegacion_menu .link{
     color: var(--gris_oscuro-color);
+    font-size: 1.3em;
 }
 .navegacion_paginas{
     display: flex;
@@ -49,18 +51,21 @@ body{
 .btn__borde{
     height: 40px;
     width: 80px;
-    border-radius: 20px;
+
     background: var(--secundary2_bg);
     border: 1px solid grey;
 }
 .bg_morado{
-    width: 47px;
-    height: 45px;
-    background:var(--fondo_icon) ;
-    border-radius: 20px;
+    width: 3em;
+    height: 3em;
+    background:var(--fondo_icon);
+    border-radius: 2em;
     display: flex;
-    align-items:center ;
+    align-items:center;
     justify-content: center;
+}
+.icon_carrito{
+    width: 1.5em
 }
 /* fin del header */
 
@@ -69,9 +74,9 @@ body{
     background-image: url("/imagenes/Background\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 18%;
+    height: 74vh;
     margin: auto;
-    width: 81%;
+    width: 89vw;
     border-radius: 2em;
 }
 .banner_informacion{
@@ -79,17 +84,17 @@ body{
     flex-direction: column;
     align-items: center;
     width: 56%;
-    margin:4% auto;
+    margin:3% auto;
     text-align: center;
-    gap: 9px;
+    gap: 1em;
     height: 34vh;
-    border: 1px solid red;
 }
 .boton_tamaño{
-    height: 4em;
-    width: 34%;
-    border-radius: 2em;
+    height: 4vw;
+    width: 13vw;
+    border-radius: 3vw;
     border: none;
+    font-size: 2vh;
 }
 .boton_tamaño:hover{
     background-color: #797979;
@@ -97,41 +102,40 @@ body{
     color: #f6f6f6;
 }
 .imagen_Graphics{
-    border: 1px solid black;
     margin: auto;
     width: 82%;
+    height: 25vw;
 }
 .imagen_encima{
     width: 100%;
+    height: 25vw;
 }
 .color_white{
     color: var(--secundary1_bg);
 }
 .cliente_logo{
-    border: 1px solid gold;
     margin-top: 12%;
-    width: 80%;
+    width: 87vw;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 12%;
+    margin-top: 11em;
+}
+img.cliente {
+    width: 11vw;
 }
 .banner_about{
-    border: 1px solid black;
-    height: 84vh;
+    height: 80vh;
 }
 .about{
-    border: 1px solid red;
-    height: 60vh;
-    width: 70%;
-    margin:6% auto;
+    height: 66vh;
+    width: 87vw;
+    margin: 3% auto;
     display: flex;
     justify-content: center;
-
 }
 .about_informacion{
-    border: 1px solid greenyellow;
     width: 38%;
     display: flex;
     flex-direction: column;
@@ -143,14 +147,20 @@ body{
 }
 .btn__borde{
     border: 1px solid gray;
+    width: 8.5vw;
+    height: 3.2vw;
+    font-size: 1em;
+    border-radius: 11em;
 }
 .about_celendario{
-    border: 1px solid greenyellow;
-    width: 49%;
+    width: 32vw;
+}
+.chulo{
+    width: 1em;
 }
 .imagen_tamaño{
-    width: 129%;
-    height: 72vh;
+    width: 30em;
+    height: 77vh;
 }
 .color_grey{
     color: var(--secundary3_bg);
