@@ -1,0 +1,90 @@
+:root {
+    --fondo_icon: #5956E9;
+    --gris_oscuro-color:#2f2f2f;
+    --secundary1_bg: #f6f6f6;
+    --secundary2_bg: #ffffff;
+    --secundary3_bg: #797979;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 500vh;
+}
+.encabezado_Homepage{
+    justify-content: space-between;
+    max-width: 200vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.logo_titulo{
+     max-width: 30vh;
+     height: 30px;
+    .logo_heder,.icon_carrito{
+     width: 30vh;
+     height:40 rem;
+    }
+}
+.encabezado_pedido{
+    border: 1px solid fuchsia;
+    max-width: 30vh;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+ .btn__borde{
+    height: 90 rem;
+    max-width: 35vh;
+    font-size: clamp(30 rem, 20vh,20 rem);
+    border-radius: 20px;
+    background: var(--secundary2_bg);
+    border: 1px solid grey;
+    }
+    .icon_carrito{
+    background:var(--fondo_icon) ;
+    border-radius: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    }
+.encabezado_navegacion ul a {
+    font-size: clamp( 10rem,10vh,15 rem );
+    display: flex;
+
+}
+.flecha_abajo{
+    width:14px ;
+}
+.navegacion_menu{
+    display: flex;
+    gap: 43px;
+}
+.navegacion_menu .link{
+    color: var(--gris_oscuro-color);
+}
+.navegacion_paginas{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    border: 2px solid black;
+    max-width: 70rem;
+    height: 10%;
+    display: grid;
+    .banner_lado-i{
+        width:145vh;
+        height:212px;
+    }
+    .banner_lado-d{
+        width: 100vh;
+        height: 212px;
+        margin-top: -212px;
+        margin-left: 445px;
+        overflow: auto;
+    }
+}
+
