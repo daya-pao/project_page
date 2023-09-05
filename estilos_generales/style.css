@@ -126,7 +126,7 @@ img.cliente {
     width: 11vw;
 }
 .banner_about{
-    height: 80vh;
+    height: 68vh;
 }
 .about{
     height: 66vh;
@@ -166,22 +166,20 @@ img.cliente {
     color: var(--secundary3_bg);
 }
 .factures{
-    border: 1px solid blue;
-    height: 105vh;
+    height: 98vh;
 }
 .factures_titulo{
     text-align: center;
     font-size: 1.3em;
 }
 .cajas_factures{
-    border: 1px solid gold;
     height: 91vh;
     display: flex;
     margin: auto;
-    width: 89%;
+    width: 42vw;
     justify-content: center;
     gap: 2%;
-    margin-top: 4%;
+    margin-top: 3%;
     flex-direction: column;
 }
 .cajas{
@@ -190,21 +188,22 @@ img.cliente {
     gap: 2%;
 }
 .factures_informacion{
-    width: 26%;
-    height: 44vh;
-    padding: 30px 30px;
+    width: 24vw;
+    height: 19vw;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     gap: 5%;
     border: 1px solid var(--secundary3_bg);
-    border-radius: 20px;
+    border-radius: 1vw;
+    font-size: 1.2vw;
 }
 .icon_btn{
     display: flex;
     justify-content: space-between;
 }
 .line_factures{
-    width: 14.4em;
+    width: 22vw;
     height: 1px;
     background: var(--secundary3_bg);
 }
@@ -212,20 +211,23 @@ img.cliente {
     width: 15%;
 }
 .bt-color{
-    width: 35%;
-    height: 23em;
-    border-radius: 10px;
+    width: 9vw;
+    height: 3em;
+    border-radius: 4vw;
     border: 0px solid;
+    font-size: 1vw;
 }
 .bt-color:hover{
     background: var(--secundary3_bg);
     color: #ffffff;
 }
 .bt--border{
-    width: 45%;
-    border-radius: 20px;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 20vw;
     background: var(--secundary2_bg);
     border: 1px solid grey;
+    font-size: 1vw
 }
 .ancho{
     width: 47%;
@@ -236,7 +238,7 @@ img.cliente {
     border: 0;
 }
 .secion_video{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     background-image: url("/imagenes/Background_video.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,21 +246,22 @@ img.cliente {
     margin-top: 4%;
 }
 .video{
-    border: 1px solid rgb(3, 3, 3);
     margin: 3% auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    margin-top: 4%;
 }
 .titulo--tamaño{
-    font-size: 2.4rem;
+    font-size: 1.3em;
 }
 .btn_normal {
-    width:23%;
-    height: 4em;
-    border-radius: 32px;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 32vw;
     border: 1px solid grey;
+    font-size: 1vw;
 }
 .btn_normal:hover{
     background: var(--secundary3_bg);
@@ -266,22 +269,19 @@ img.cliente {
 }
 .video_imagen{
     margin: auto;
-    border: 1px solid red;
-    width: 61%;
-    height: 63vh;
-    margin-top: 2%;
+    width: 53vw;
+    height: 56vh;
+    margin-top: -1%;
 }
 .img--video{
     width: 100%;
 }
 .social_media{
-    border: 1px solid rgb(71, 255, 47);
-    margin-top: 19%;
+    margin-top: 15%;
 }
 .social_redes{
-    border: 1px solid blueviolet;
-    width: 51%;
-    height: 40vh;
+    width: 60vw;
+    height: 51vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -289,56 +289,58 @@ img.cliente {
 .texto{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(71, 255, 47);
-    width: 95%;
-    height: 40vh;
+    width: 50vw;
+    height: 46vh;
     gap: 7%;
+    font-size: 1em;
 }
 .imagen_redes{
-    border: 1px solid rgb(71, 255, 47);
+    width: 40vw;
+    height: 46vh;
 }
 .redes{
     width: 96%;
     margin-top: 9%;
 }
 .bt_normal{
-    width: 40%;
-    height: 3rem;
-    border-radius: 25px;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 25vw;
     border: 1px solid gray;
+    font-size: 1em;
 }
 .bt_normal:hover{
     background: var(--gris_oscuro-color);
     color: var(--secundary2_bg);
 }
 .Work__Procces{
-    border: 1px solid rgb(248, 1, 1);
     width: 100%;
     height: 70vh;
-    margin-top: 4%;
+    margin-top: -2%;
 }
 .Work__Procces_imagen{
-    border: 1px solid #5956E9;
-    width: 60%;
-    height: 65vh;
+    width: 64vw;
+    height: 68vh;
     margin: auto;
     display: flex;
+    font-size: 1em;
 }
 .imagen-bg{
     background-image: url("/imagenes/Imag--bge.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 65vh;
-    width: 43%;
-    border-radius: 20px;
+    width: 50vw;
+    border-radius: 1vw;
     padding:  50px 50px;
     display: flex;
     flex-direction: column;
     gap: 5%;
 }
 .btn-white{
-    width: 50%;
-    height: 3rem;
+    width: 11vw;
+    height: 4vw;
+    font-size: 1em;
     border-radius: 25px;
     border: 1px solid gray;
     background: #2f2f2f;
@@ -350,28 +352,23 @@ img.cliente {
 
 }
 .Work_informacion{
-    border: 1px  solid saddlebrown;
-    width: 63%;
-    height: 31vh;
+    width: 65vw;
+    height: 32vh;
     padding: 10px 10px;
     gap: 5%;
     display: flex;
     flex-direction: column;
 }
 .Work_informacion h2{
-    font-size: 3em;
-}
-.Work_informacion h2:hover{
     color: var(--fondo_icon);
-    cursor: pointer;
 }
 .caja_wort{
-    width: 99%;
+    width: 41vw;
     height: 99vh;
     display: flex;
 }
 .cajas_bg{
-    width: 57%;
+    width: 65vw;
     height: 65vh;
     display: flex;
     flex-direction: column;
