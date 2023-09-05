@@ -13,7 +13,7 @@
 }
 body{
     height: 500vh;
-    font-size: clamp(1.5vw,15rem,1.5vw);
+    font-size: clamp(1.2vw,15rem,1.2vw);
 }
 .encabezado_Homepage{
     height: 6vw;
@@ -28,7 +28,7 @@ body{
     gap: 2vw;
 }
 .logo{
-    width: 20vw;
+    width: 13vw;
 }
 .encabezado_navegacion{
     display: flex;
@@ -42,22 +42,22 @@ body{
 }
 .navegacion_menu .link{
     color: var(--gris_oscuro-color);
-    font-size: 1.3em;
+    font-size: 1.4vw;
 }
 .navegacion_paginas{
     display: flex;
     flex-direction: column;
 }
 .btn__borde{
-    height: 40px;
-    width: 80px;
-
-    background: var(--secundary2_bg);
-    border: 1px solid grey;
+    border: 1px solid gray;
+    width: 8.5vw;
+    height: 2.2vw;
+    font-size: 1em;
+    border-radius: 11em;
 }
 .bg_morado{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     background:var(--fondo_icon);
     border-radius: 2em;
     display: flex;
@@ -65,10 +65,9 @@ body{
     justify-content: center;
 }
 .icon_carrito{
-    width: 1.5em
+    width: 1em
 }
 /* fin del header */
-
 .encabezado_banner{
     border: 1px solid white;
     background-image: url("/imagenes/Background\ Image.png");
@@ -76,7 +75,7 @@ body{
     background-size: cover;
     height: 74vh;
     margin: auto;
-    width: 89vw;
+    width: 80vw;
     border-radius: 2em;
 }
 .banner_informacion{
@@ -90,8 +89,8 @@ body{
     height: 34vh;
 }
 .boton_tamaño{
-    height: 4vw;
-    width: 13vw;
+    height: 3vw;
+    width: 10vw;
     border-radius: 3vw;
     border: none;
     font-size: 2vh;
@@ -115,7 +114,7 @@ body{
 }
 .cliente_logo{
     margin-top: 12%;
-    width: 87vw;
+    width: 80vw;
     margin: auto;
     display: flex;
     align-items: center;
@@ -123,7 +122,7 @@ body{
     margin-top: 11em;
 }
 img.cliente {
-    width: 11vw;
+    width: 8vw;
 }
 .banner_about{
     height: 68vh;
@@ -148,8 +147,7 @@ img.cliente {
 .btn__borde{
     border: 1px solid gray;
     width: 8.5vw;
-    height: 3.2vw;
-    font-size: 1em;
+    height: 2.2vw;
     border-radius: 11em;
 }
 .about_celendario{
@@ -159,8 +157,8 @@ img.cliente {
     width: 1em;
 }
 .imagen_tamaño{
-    width: 30em;
-    height: 77vh;
+    width: 34em;
+    height: 58vh;
 }
 .color_grey{
     color: var(--secundary3_bg);
@@ -176,7 +174,6 @@ img.cliente {
     height: 91vh;
     display: flex;
     margin: auto;
-    width: 42vw;
     justify-content: center;
     gap: 2%;
     margin-top: 3%;
@@ -185,10 +182,10 @@ img.cliente {
 .cajas{
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 1%;
 }
 .factures_informacion{
-    width: 24vw;
+    width: 20vw;
     height: 19vw;
     padding: 15px 15px;
     display: flex;
@@ -203,7 +200,7 @@ img.cliente {
     justify-content: space-between;
 }
 .line_factures{
-    width: 22vw;
+    /* width: 22vw; */
     height: 1px;
     background: var(--secundary3_bg);
 }
@@ -211,8 +208,8 @@ img.cliente {
     width: 15%;
 }
 .bt-color{
-    width: 9vw;
-    height: 3em;
+    width: 7vw;
+    height: 2em;
     border-radius: 4vw;
     border: 0px solid;
     font-size: 1vw;
@@ -222,7 +219,7 @@ img.cliente {
     color: #ffffff;
 }
 .bt--border{
-    width: 12vw;
+    width: 10vw;
     height: 3vw;
     border-radius: 20vw;
     background: var(--secundary2_bg);
@@ -257,8 +254,8 @@ img.cliente {
     font-size: 1.3em;
 }
 .btn_normal {
-    width: 12vw;
-    height: 4vw;
+    width: 10vw;
+    height: 3vw;
     border-radius: 32vw;
     border: 1px solid grey;
     font-size: 1vw;
@@ -324,18 +321,19 @@ img.cliente {
     margin: auto;
     display: flex;
     font-size: 1em;
+    gap: 2%;
 }
 .imagen-bg{
     background-image: url("/imagenes/Imag--bge.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 65vh;
+    height: 58vh;
     width: 50vw;
     border-radius: 1vw;
     padding:  50px 50px;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 15%;
 }
 .btn-white{
     width: 11vw;
@@ -359,7 +357,7 @@ img.cliente {
     display: flex;
     flex-direction: column;
 }
-.Work_informacion h2{
+.Work_informacion h2:hover{
     color: var(--fondo_icon);
 }
 .caja_wort{
@@ -391,6 +389,12 @@ img.cliente {
     align-items: center;
     gap: 2%;
 }
+img#left_icon {
+    width: 1vw;
+}
+img#right_icon{
+    width: 1vw;
+}
 .perfil{
     border: 1px solid red;
     width: 100%;
@@ -416,6 +420,9 @@ img.cliente {
     align-items: center;
     gap: 2%;
     text-align: center;
+}
+.img-perfil img{
+    width: 8vw;
 }
 .display_none{
     display: none;
@@ -454,7 +461,16 @@ img.cliente {
     position: absolute;
     z-index: 1;
     margin-right: 9%;
-    padding-top: 4%;
+    padding-top: 3%;
+}
+.comillas img{
+    width: 3vw;
+}
+.perfil_2.comillas img{
+    width: 3vw;
+}
+.Star_img{
+    width: 1vw;
 }
 .line{
     width: 600px;
