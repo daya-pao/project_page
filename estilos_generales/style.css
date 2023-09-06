@@ -10,10 +10,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Mulish', sans-serif;
 }
 body{
     height: 500vh;
-    font-size: clamp(1.2vw,15rem,1.2vw);
+    font-size: clamp(1.1vw,15rem,1vw);
 }
 .encabezado_Homepage{
     height: 6vw;
@@ -193,7 +194,6 @@ img.cliente {
     gap: 5%;
     border: 1px solid var(--secundary3_bg);
     border-radius: 1vw;
-    font-size: 1.2vw;
 }
 .icon_btn{
     display: flex;
@@ -734,8 +734,8 @@ span{
     margin-top: -2em;
 }
 .blak{
-    color:black;
-    font-size: 1.1em;
+    color:rgb(224, 18, 18);
+    font-size: 1.em;
 }
 .redes_s{
     display: flex;

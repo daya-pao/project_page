@@ -1,0 +1,94 @@
+:root {
+    --fondo_icon: #5956E9;
+    --gris_oscuro-color:#2f2f2f;
+    --secundary1_bg: #f6f6f6;
+    --secundary2_bg: #ffffff;
+    --secundary3_bg: #797979;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    height: 500vh;
+    font-size: clamp(1.1vw,15rem,1vw);
+}
+.encabezado_Homepage{
+    height: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.encabezado_pedido{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+}
+.logo{
+    width: 13vw;
+}
+.encabezado_navegacion{
+    display: flex;
+}
+.flecha_abajo{
+    width:1em;
+}
+.navegacion_menu{
+    display: flex;
+    gap: 2em;
+}
+.navegacion_menu .link{
+    color: var(--gris_oscuro-color);
+    font-size: 1.4vw;
+}
+.navegacion_paginas{
+    display: flex;
+    flex-direction: column;
+}
+.btn__borde{
+    border: 1px solid gray;
+    width: 8.5vw;
+    height: 2.2vw;
+    font-size: 1em;
+    border-radius: 11em;
+}
+.bg_morado{
+    width: 2em;
+    height: 2em;
+    background:var(--fondo_icon);
+    border-radius: 2em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon_carrito{
+    width: 1em
+}
+.about_us{
+    border: 1px solid red;
+    height: 40vh;
+}
+.about{
+    border: 1px solid #5956E9;
+    width: 79vw;
+    height: 40vh;
+    border-radius:1em ;
+    margin: auto;
+    background-image: url("/imagenes/Image_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56%;
+    margin:3% auto;
+    text-align: center;
+    gap: 1em;
+    height: 34vh;
+}
