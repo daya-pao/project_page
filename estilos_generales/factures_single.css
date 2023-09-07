@@ -109,7 +109,7 @@ body{
     width: 100%;
     height: 38vw;
 }
-.color_white{
+.banner_informacion .color_white{
     color: var(--secundary1_bg);
     margin: 7vw;
 }
@@ -245,11 +245,11 @@ body{
 }
 .secion_testimonial{
     width: 100%;
-    height: 111vh;
+    height: 61vh;
 }
 .testimonial_content{
     width: 60%;
-    height: 64vh;
+    height: 54vh;
     margin: auto;
     background: var(--secundary1_bg);
     border-radius: 2vw;
@@ -332,11 +332,173 @@ img#right_icon{
 .comillas img{
     width: 3vw;
 }
-.perfil_2.comillas img{
+.perfil_2 .comillas img{
     width: 3vw;
 }
 .Star_img{
     width: 2vw;
 }
 
+/* comienzo del footer */
+.footer{
+    height: 90vh;
+    margin-top: 6vw;
+}
+.footer_informacion{
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.line_footer{
+    width: 80vw;
+    height:1px;
+    background: #797979;
+}
+.logo_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bt_footer{
+    width: 10vw;
+}
+.btn_footer{
+    width: 10vw;
+    height: 3vw;
+    border: 1px solid grey;
+    border-radius: 10vw;
+    background: white;
+    font-size: 0.8em;
+}
+.footer_item{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding:1vw 3vw ;
+}
+.item_footer{
+    display: flex;
+    gap: 8vw;
+}
+.Resources{
+    display: flex;
+    align-items: center;
+}
+.Resources_p{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.line_line{
+    width: 1px;
+    height: 17vw;
+    background: #797979;
+}
+.line_item{
+    width: 1px;
+    height: 20vw;
+    background: #797979;
+    margin-top: 1vw;
+}
+.bg_negro{
+    width: 35vw;
+    height: 44vh;
+    background: #2f2f2f;
+    border-radius: 1em;
+    display: flex;
+    padding: 2vw 1vw;
+    gap: 2em;
 
+}
+.popular_bg{
+    height: 36vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-left: 2vw;
+}
+.Startup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+   color: white;
+}
+.Startup h2{
+   font-size: 1.9vw;
+}
+.dolar{
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+}
+.peso{
+    margin-top: 1em;
+}
+.btn_bg{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 2em;
+    border: 0;
+    background: #797979;
+    font-size: 1em;
+}
+/* .opciones_bg{
+    height: 36vh;
+    width: 20vw;
+} */
+.dolar .numero_tamaño{
+    font-size: 4vw;
+    margin-top: 1vh;
+}
+.opciones_bg{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   color: white;
+
+}
+
+span{
+    color: rgb(0, 174, 255);
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    height: 6vh;
+}
+.social h4{
+    width: 12vw;
+}
+.img_popular{
+    width: 10vw;
+    height: 8vh;
+}
+.vetor_chulos{
+    width: 1vw;
+}
+.top{
+    margin-top: -2em;
+}
+.blak{
+    color:rgb(224, 18, 18);
+    font-size: 1em;
+}
+.redes_s{
+    display: flex;
+    justify-content: space-between;
+}
+.redes_sociales{
+    display: flex;
+    gap: 1em;
+}
+.redes_sociales div img{
+    width: 2vw;
+}
+/* termino del footer */

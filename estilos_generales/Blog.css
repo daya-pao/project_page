@@ -44,6 +44,7 @@ body{
 .navegacion_menu .link{
     color: var(--gris_oscuro-color);
     font-size: 1.4vw;
+    user-select: none;
 }
 .navegacion_paginas{
     display: flex;
@@ -55,6 +56,7 @@ body{
     height: 2.2vw;
     font-size: 1em;
     border-radius: 11em;
+    cursor: pointer;
 }
 .bg_morado{
     width: 2em;
@@ -68,6 +70,7 @@ body{
 .icon_carrito{
     width: 1em
 }
+/* fin del header */
 .about_us{
     height: 40vh;
 }
@@ -103,265 +106,75 @@ body{
 .section_about{
     height: 80vh;
 }
-.section_about_imagen{
-    width: 65vw;
-    height: 60vh;
+.blog_content{
+    height: 135vh;
+    margin-top: 3%;
+}
+.blog{
+    width: 60vw;
     margin: auto;
-    padding: 1em ;
-    margin-top: 3vw;
-    display: flex;
-    gap: 1vw;
-}
-.img-about{
-    width: 30vw;
-    border-radius: 1vw;
-}
-.bg_150{
-    width: 12vw;
-    height: 18vh;
-    border-radius: 1vw;
-    padding: 1em;
-    background: var(--fondo_icon);
-}
-.section_img_bg{
-    display: flex;
-    gap: 1vw;
-}
-.bg_tamaño{
-    font-size: 3vw;
-}
-.img-grupo{
-    width: 17vw;
-}
-.section_informacion{
-    display: flex;
-    flex-direction: column;
-    gap: 1.7vw;
-    width: 29vw;
-}
-.img_btn{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-}
-.btn_enviar{
-    width: 6vw;
-    height: 10vh;
-    border: 0;
-    border-radius: 1vw;
-}
-.enviar{
-    width: 2vw;
-}
-.ajustes{
-    width: 3vw;
-}
-.line_about{
-    width: 30vw;
-    height: 1px;
-    background: #797979;
-}
-.btn-Join{
-    width: 10vw;
-    height: 7vh;
-    border-radius: 5vw;
-    border: 0;
-    font-size: 1em;
-}
-.btn-Join:hover{
-    color: white;
-    background: var(--gris_oscuro-color);
-}
-.color_grey{
-    color: #797979;
-}
-.secion_Counters{
-    height: 36vh;
-}
-.counter{
-    width: 85%;
-    height: 40vh;
-    margin: auto;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 5em;
-}
-.counter_numeros{
     display: flex;
     justify-content: space-between;
-    gap: 2vw;
 }
-.counter_numeros h2{
-    color: #5956E9;
+.btn-borde{
+    width: 14vw;
+    height: 4vw;
+    border-radius: 30vw;
+    font-size: 1em;
+    border: 1px solid gray;
+    background: var(--secundary2_bg);
 }
-.section_Mission{
-    height: 50vh;
+.btn-borde:hover{
+    background: #5956E9;
+    color:#f6f6f6;
 }
-.Mission{
-    width: 69vw;
-    height: 45vh;
-    margin: 1vw auto;
+.blog_imagen{
     display: flex;
+    margin: auto;
+    width: 60vw;
 }
-.Our_Mission{
-    width: 29vw;
-    height: 45vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2vw
-}
-.opiniones{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-}
-.chulo{
-    width: 1em;
-}
-.galery{
-    display: flex;
-    gap: 1vw;
-}
-.imagenes_m{
-    width: 20vw;
-}
-.section_Values{
-    height: 84vh;
-}
-.Values_informacion{
-    margin-top: 1vw;
-}
-.Values{
-    width: 69vw;
-    height: 80vh;
-    margin: 1vw  auto;
-    text-align: center;
-}
-.Values_cajas{
-    display: flex;
-    gap: 2vw;
-}
-.cajas_items{
-    width: 20vw;
-    height: 35vh;
-    padding: 1vw;
+.blog_re{
+    width: 34%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1vw;
+    gap: 1.1em;
+    padding: 18px;
 }
-.cajas_items:hover{
-    border: 1px solid var(--secundary3_bg);
-    border-radius: 1vw;
-    cursor: pointer;
+.imgages_blog{
+    width: 100%;
 }
-.icon_value{
-    width: 5vw;
+.btn{
+    margin-top: -17%;
+    padding-left: 3%;
 }
-.section_team{
-    border: 1px solid var(--fondo_icon);
-    height: 84vh;
-    background-image: url("/imagenes/Background_our_team.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.our_team{
-    width: 63vw;
-    height: 75vh;
-    margin:2vw  auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3vw;
-}
-.team_informacion{
+.fecha{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.team_titulo{
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
-}
-.btn_team{
-    height: 6vh;
-    width: 10vw;
-    border-radius: 2em;
-    border: 0;
+
+.bt_bg{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 9vw;
+    border: 0px solid gray;
+    background: #ffffff;
+    padding: 2%;
     font-size: 1em;
 }
-.btn_team:hover{
-    cursor: pointer;
-    background: var(--secundary3_bg);
-    color: var(--secundary2_bg);
-}
-.team_perfil{
 
-    height: 60vh;
-    display: flex;
-    gap: 1vw;
-}
-.phone_perfil{
-    width: 19vw;
-    border-radius: 2vw;
-}
-.perfil{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.redes_perfil{
-    display: flex;
-    width: 7vw;
-    gap: 1vw;
-    margin: auto;
-    align-items: center;
-}
-.rede{
-    width: 1vw;
-}
-.rede-fc{
-    height: 1.1vw;
-}
-.section_Investors{
-    height: 70vh;
-}
-.Investors{
-    width: 58vw;
-    height: 60vh;
-    margin:2vw auto;
-}
-.titulo_Investors{
-    text-align: center;
 
-}
-.cajas_investors{
-    background:var(--secundary1_bg);
-    width: 27vw;
-    height: 18vh;
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.cajas_texto{
-    display: flex;
-    flex-direction: column;
-    gap: 2vw;
-}
-.social--img{
-    width: 6vw;
-}
-.texto_caja{
-    display: flex;
-    gap: 3vw;
-    margin-top: 1vw;
-}
+
+
+
+
+
+
+
+
+/* comienzo del footer */
 .footer{
     height: 90vh;
+    margin-top: 6vw;
 }
 .footer_informacion{
     width: 80vw;
@@ -412,10 +225,16 @@ body{
     flex-direction: column;
     gap: 1vw;
 }
+.Resources_p p{
+    color: #797979;
+}
 .line_line{
     width: 1px;
     height: 17vw;
     background: #797979;
+}
+.social h4{
+    color: #ffffff;
 }
 .line_item{
     width: 1px;
@@ -443,6 +262,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1em;
+    color: #ffffff;
 
 }
 .dolar{
@@ -472,6 +292,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1em;
+
 }
 span{
     color: rgb(0, 174, 255);
