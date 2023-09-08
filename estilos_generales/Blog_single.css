@@ -13,7 +13,6 @@
     font-family: 'Mulish', sans-serif;
 }
 body{
-    /* height: 500vh; */
     font-size: clamp(1.1vw,15rem,1vw);
 }
 .encabezado_Homepage{
@@ -70,13 +69,13 @@ body{
 .icon_carrito{
     width: 1em
 }
-/* fin del header */
+
 .about_us{
     height: 40vh;
 }
 .about{
     width: 79vw;
-    height: 40vh;
+    height: 46vh;
     border-radius:1em ;
     margin: auto;
     background-image: url("/imagenes/Image_banner.png");
@@ -91,11 +90,11 @@ body{
     margin:3% auto;
     text-align: center;
     gap: 1em;
-    height: 34vh;
+    height: 18vh;
     padding: 5vw;
 }
 .about_informacion h1{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .color_white{
     color: #f6f6f6;
@@ -116,128 +115,143 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.btn-borde{
-    width: 14vw;
-    height: 4vw;
-    border-radius: 30vw;
-    font-size: 1em;
-    border: 1px solid gray;
-    background: var(--secundary2_bg);
-}
-.btn-borde:hover{
-    background: #5956E9;
-    color:#f6f6f6;
-}
-.blog_imagen{
-    display: flex;
+.person{
+    width: 40vw;
+    height: 9vh;
     margin: auto;
-    width: 60vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #f6f6f6;
 }
-.blog_re{
-    width: 34%;
+.parker{
+    width:4vw;
+}
+.circle{
+    width: 0.4vw;
+    height: 0.9vh;
+    background-color: #f6f6f6;
+    border-radius: 3vw;
+}
+.person_datos{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.section_blog_person{
+    border: 1px solid red;
+    margin-top: 5vw;
+    height: 500vh;
+}
+.section_blog_person_banner{
+    border: 1px solid black;
+    width: 60vw;
+    height: 76vh;
+    margin: auto;
+}
+.photo_blog{
+    width: 60vw;
+    border-radius: 2vw;
+}
+.person_banner_informacion{
+    border: 1px solid green;
+    width: 51vw;
+    height: 76vh;
+    margin: auto;
+    margin-top: 2vw;
+}
+.informacion_titulo{
     display: flex;
     flex-direction: column;
-    gap: 1.1em;
-    padding: 18px;
+    gap: 2vw;
+    color: #797979;
+   
 }
-.imgages_blog{
-    width: 100%;
+.titulo_banner{
+    text-align: center;
+    color: black;
 }
-.btn{
-    margin-top: -17%;
-    padding-left: 3%;
+.items_infotmacion{
+    width: 40vw;
+    height: 31vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    color: #797979;
+    padding: 1vw;
 }
-.fecha{
+.items_infotmacion span{
+    color: black;
+}
+.banner_person_img{
+    width: 52vw;
+    height: 56vh;
+    border: 1px solid red;
+    margin: auto;
+}
+.Photoblog{
+    width: 51vw;
+    border-radius: 2vw;
+}
+.imagen_bg{
+    border: 1px solid rgb(0, 174, 255);
+    width: 49vw;
+    margin: auto;
+    height: 40vh;
+    border-radius: 2vw;
+    background-image: url("/imagenes/Photo_mesajes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Iconcomilass{
+    width: 4vw;
+    margin-left: 3vw;
+}
+.fondo_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin: 3vw 7vw auto;
+    color: #f6f6f6;
+}
+.parrafo span{
+    font-size: 2vw;
+    color: #f6f6f6;
+}
+.banner_Tags{
+    border: 1px solid red;
+    width: 52vw;
+    height: 56vh;
+    margin: auto;
+}
+.Tags_line{
+    width: 52vw;
+    height: 1px;
+    background: #797979;
+}
+.btn-redsocila{
     display: flex;
     justify-content: space-between;
 }
 
-.bt_bg{
-    width: 8vw;
-    height: 2vw;
-    border-radius: 9vw;
-    border: 0px solid gray;
-    background: #ffffff;
-    padding: 2%;
-    font-size: 1em;
-}
-.imgagen_mision{
-    width: 17vw;
-    height: 32vh;
-    border-radius: 1vw;
-}
-.Newsletter{
-    height: 60vh;
-}
-.imagen_Newsletter{
-    width: 70vw;
-    height: 60vh;
-    margin: auto;
-    background-image: url("/imagenes/Imagebg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-}
-.texto_Newsletter{
-    height: 60vh;
-    width: 70vw;
-    margin: auto;
-    display: flex;
-}
-.letter_informacion{
-    width: 40vw;
-    height: 60vh;
-    padding: 8vw 3vw;
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
-    font-size: 1em;
-}
-.letter_imagen{
-    width: 30vw;
-    height: 60vh;
-}
-.img--News{
-    width: 32vw;
-    margin-top: -3vw;
-}
-.input-container {
-    display: flex;
-    align-items: center;
-}
-input[type="text"] {
-    width: 23vw;
-    height: 8vh;
-    border-radius: 3vw;
-    border: 0;
-    padding: 2vw;
-    font-size: 1em;
-}
-.botton{
-    position: absolute;
-    left: 33vw;
-    height: 7vh;
-    font-size: 1em;
-    width: 7vw;
-    border-radius: 17vw;
-    border: 0;
-    color: white;
-    background: var(--gris_oscuro-color);
-}
-.item{
-    display: flex;
-    gap: 1vw;
-}
-.item_group{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    width: 75vw;
-}
-.Group{
-    width: 1vw;
-}
-/* comienzo del footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     height: 90vh;
     margin-top: 6vw;
@@ -358,7 +372,9 @@ input[type="text"] {
     display: flex;
     flex-direction: column;
     gap: 1em;
-
+}
+.Resources_p p{
+    color: #797979;
 }
 span{
     color: rgb(0, 174, 255);
