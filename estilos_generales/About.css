@@ -1,7 +1,7 @@
 :root {
     --fondo_icon: #5956E9;
     --gris_oscuro-color:#2f2f2f;
-    --secundary1_bg: #f6f6f6;
+    --secundary1_bg: #2c1111;
     --secundary2_bg: #ffffff;
     --secundary3_bg: #797979;
 }
@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
+    user-select: none;
 }
 body{
     height: 500vh;
@@ -505,5 +506,11 @@ span{
 }
 .redes_sociales div img{
     width: 2vw;
+}
+.Resources_p p {
+    color: #797979;
+}
+.Resources_p a{
+    color: #797979;
 }
 /* termino del footer */

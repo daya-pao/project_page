@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
+    user-select: none;
 }
 body{
     height: 500vh;
@@ -503,5 +504,11 @@ span{
 }
 .redes_sociales div img{
     width: 2vw;
+}
+.Resources_p p{
+    color: #797979;
+}
+.Resources_p a{
+    color: #797979;
 }
 /* termino del footer */
