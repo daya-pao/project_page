@@ -1,7 +1,7 @@
 :root {
     --fondo_icon: #5956E9;
     --gris_oscuro-color:#2f2f2f;
-    --secundary1_bg: #2c1111;
+    --secundary1_bg: #f6f6f6;
     --secundary2_bg: #ffffff;
     --secundary3_bg: #797979;
 }
@@ -342,7 +342,7 @@ body{
 
 }
 .cajas_investors{
-    background:var(--secundary1_bg);
+    background: var(--secundary1_bg);
     width: 27vw;
     height: 18vh;
     padding: 1vw;
