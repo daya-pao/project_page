@@ -491,12 +491,15 @@ span{
     margin-top: -2em;
 }
 .blak{
-    color:rgb(224, 18, 18);
+    color:black;
     font-size: 1em;
 }
 .redes_s{
     display: flex;
     justify-content: space-between;
+}
+.redes_s p{
+    color: #797979;
 }
 .redes_sociales{
     display: flex;

@@ -276,4 +276,10 @@ span{
 .color_grey{
     color: gray;
 }
+.Resources_p p {
+    color: #797979;
+}
+.Resources_p a {
+    color: #797979;
+}
 /* termino del footer */
