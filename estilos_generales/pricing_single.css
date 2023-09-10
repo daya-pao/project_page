@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 220vh;
+    font-size: clamp(1.2vw,15rem,1.2vw);
+    border: 1px solid rgb(8, 206, 255);
+}
+.encabezado_Homepage{
+    height: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.encabezado_pedido{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+}
+.logo{
+    width: 13vw;
+}
+.encabezado_navegacion{
+    display: flex;
+}
+.flecha_abajo{
+    width:1em;
+}
+.navegacion_menu{
+    display: flex;
+    gap: 2em;
+}
+.navegacion_menu .link{
+    color: var(--gris_oscuro-color);
+    font-size: 1.4vw;
+}
+.navegacion_paginas{
+    display: flex;
+    flex-direction: column;
+}
+.btn__borde{
+    border: 1px solid gray;
+    width: 8.5vw;
+    height: 2.2vw;
+    font-size: 1em;
+    border-radius: 11em;
+}
+.bg_morado{
+    width: 2em;
+    height: 2em;
+    background:var(--fondo_icon);
+    border-radius: 2em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon_carrito{
+    width: 1em
+}
+/*desde aqui se generan los estilos main*/
+.banner{
+    width:75em;
+    height: 15em;
+    background-image: url("/daniel/fondo-banner.png");
+    align-items: center;
+    border-radius: 1em;
+    margin-left: 9vh;
+    color:var(--secundary1_bg);
+    text-align: center;
+    justify-content: center;
+    padding-top: 4em;
+    background-size: cover;
+    .banner_titulo ,.banner_parrafo{
+     text-align: center;
+     color: aliceblue;
+     font-size: 2em;
+    }.banner_parrafo{
+        font-size: 2vh;
+    }
+}
+.choose{
+    margin-left: 6em;
+    margin-top: 2em;
+    display: flex;
+    width: 75em;
+    height: 28em;
+    .choose_but{
+        width: 25em;
+        margin-left: 3em;
+        margin-top: 3em;
+        height: 21em;
+        background-color: #d6d6d6;
+        text-align: center;
+        gap: 3em;
+        border-radius: 3vh;
+    }
+    .choose_titulo{
+        font-size: 3vh;
+        text-align: left;
+        margin-left: 3em;
+        font-family:'Nunito', sans-serif; 
+        padding-top: 3em;
+    }
+    .choose_parrafo{
+        margin-left: 4em;
+        text-align: left;
+        font-size: 2vh;
+    }
+    .choose_subtitulo{ 
+        margin-left: 3em;
+        text-align: left;
+    }
+    .choose_botones{
+        width: 19em;
+        height: 8em;
+        display: grid;
+    }
+    .choose_but-add:hover{
+        background-color: #b63fee;
+        color:white;
+    }
+    .choose_but-selec:hover{
+        background-color: #b63fee;
+        color:white;
+    }
+    .fle_abriir{
+        margin-left: 2em;
+    }
+    .choose_but-selec{
+        align-items: center;
+        margin-left: 2em;
+        margin-top: 1em;
+        width: 17em;
+        height: 3em;
+        border-radius: 1em;
+        border: 1px gainsboro;
+    }
+    .choose_but-add{
+     margin-top: 3em;
+     margin-left: 2em;
+     width: 17em;
+     height: 3em;
+     border-radius: 1em;
+     border: 1px gainsboro;
+    }
+
+    .automate{
+        margin-top: 4em;
+        margin-left: 2em;
+    }
+    .automate_titulo {
+        font-size: 2em;
+        width: 14em;
+        height: 3em;
+    }
+    .automate_parrafo{
+        font-size: 2vh;
+        width: 38em;
+        height: 7em;
+    }
+    .automate_icon{
+        margin-right: 3vh;
+        width: 2vh;
+        margin-left: em;
+
+    }
+}
+.star{
+    width: 75em;
+    height: 30em;
+    background-image: url("/daniel/fondo_choose.png");
+    background-size: cover;
+    margin-top: 3em;
+    margin-left: 4em;
+    border-radius: 2vh;
+    .estar_decoracion{
+        align-items: center;
+        margin-top: -23em;
+        margin-left: 42em;
+        width: 33em;
+        height: 39em;
+    }
+    .star-titulo{
+        padding-top: 3em;
+        padding-left: 4em;
+        color: aliceblue;
+        font-size: 2em;
+    }
+    .star_parrafo{
+        padding-left: 10em;
+        color: aliceblue;
+        font-size: 2vh;
+    }
+    .star_boton{
+        margin-top: 3vh;
+        margin-left: 8em;
+        width: 18em;
+        height: 4em;
+        border: 1px gainsboro;
+        border-radius: 3vh;
+        text-align: left;
+    }
+    .but_parrafo:hover{
+        background-color: #b63fee;
+    }
+    .but_parrafo{
+        background-color: black;
+        color: aliceblue;
+        width: 7em;
+        align-items: center;
+        height: 5vh;
+        top: -3em;
+        left: 19em;
+        border-radius: 2em;
+        position: relative;
+        text-align: center;
+    }
+    .opciones{
+        display: flex;
+        width: 42em;
+        margin-left: 2em;
+        color: aliceblue;
+        height: 2em;
+        font-size: 2vh;
+    }
+    .star_ociones{
+        margin-left: 1em;
+        width: 28em;
+        height: 1em;
+       
+        .star_circulo{ 
+            width: 2vh;
+        }
+    }
+}
+.footer{
+    height: 90vh;
+    margin-top: 6em; 
+    border: 1px solid darkblue;
+}
+.footer_informacion{
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.line_footer{
+    width: 80vw;
+    height:1px;
+    background: #797979;
+}
+.logo_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bt_footer{
+    width: 10vw;
+}
+.btn_footer{
+    width: 10vw;
+    height: 3vw;
+    border: 1px solid grey;
+    border-radius: 10vw;
+    background: white;
+    font-size: 0.8em;
+}
+.footer_item{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding:1vw 3vw ;
+}
+.item_footer{
+    display: flex;
+    gap: 8vw;
+}
+.Resources{
+    display: flex;
+    align-items: center;
+}
+.Resources_p{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.line_line{
+    width: 1px;
+    height: 17vw;
+    background: #797979;
+}
+.line_item{
+    width: 1px;
+    height: 20vw;
+    background: #797979;
+    margin-top: 1vw;
+}
+.bg_negro{
+    width: 35vw;
+    height: 44vh;
+    background: #2f2f2f;
+    border-radius: 1em;
+    display: flex;
+    padding: 2vw 1vw;
+    gap: 1em;
+}
+.popular_bg{
+    height: 36vh;
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Startup{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+.dolar{
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+}
+.peso{
+    margin-top: 1em;
+}
+.btn_bg{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 2em;
+    border: 0;
+    background: #797979;
+    font-size: 1em;
+}
+.opciones_bg{
+    height: 36vh;
+    width: 20vw;
+}
+.numero_tamaño{
+    font-size: 4em;
+}
+.opciones_bg{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+span{
+    color: rgb(0, 174, 255);
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.img_popular{
+    width: 10vw;
+    height: 8vh;
+}
+.vetor_chulos{
+    width: 1vw;
+}
+.top{
+    margin-top: -2em;
+}
+.blak{
+    color:black;
+    font-size: 1.1em;
+}
+.redes_s{
+    display: flex;
+    justify-content: space-between;
+}
+.redes_sociales{
+    display: flex;
+    gap: 1em;
+}
+.redes_sociales div img{
+    width: 2vw;
+}

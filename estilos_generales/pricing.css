@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 body{
-    height: 500vh;
+    height: 220vh;
     font-size: clamp(1.2vw,15rem,1.2vw);
 }
 .encabezado_Homepage{
@@ -114,6 +114,11 @@ body{
     text-align: center;
     font-size:1 rem;
 }
+.buto-save:hover{
+    color: black;
+    background-color: #9961af;
+    background-image: url("/daniel/22.png");
+}
 .des-subti{
     margin-top: 1vh;
     font-size: 3vh;
@@ -121,8 +126,8 @@ body{
 .buto-save{
 width: 7em;
 height: 2em;
-background-color:rgb(22, 22, 22);
-color: var(--secundary2_bg);
+background-color:rgb(0, 0, 0);
+color:white;
 border-radius: 1em;
 padding-top: 1vh;
 }

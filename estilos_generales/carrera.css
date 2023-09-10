@@ -1,0 +1,365 @@
+:root{
+    --texto-catamara:font-family:'Catamaran', sans-serif;
+    --texto-nunito:'Nunito', sans-serif;
+    --texto-poppins: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 330vh;
+    height: 220vh;
+    font-size: clamp(1.2vw,15rem,1.2vw);
+}
+.encabezado_Homepage{
+    height: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.encabezado_pedido{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+}
+.logo{
+    width: 13vw;
+}
+.encabezado_navegacion{
+    display: flex;
+}
+.flecha_abajo{
+    width:1em;
+}
+.navegacion_menu{
+    display: flex;
+    gap: 2em;
+}
+.navegacion_menu .link{
+    color: var(--gris_oscuro-color);
+    font-size: 1.4vw;
+}
+.navegacion_paginas{
+    display: flex;
+    flex-direction: column;
+}
+.btn__borde{
+    border: 1px solid gray;
+    width: 8.5vw;
+    height: 2.2vw;
+    font-size: 1em;
+    border-radius: 11em;
+}
+.bg_morado{
+    width: 2em;
+    height: 2em;
+    background-color:  #5956E9;
+    border-radius: 2em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon_carrito{
+    width: 1em
+}
+.banner{
+    width:75em;
+    height: 15em;
+    background-image: url("/daniel/fondo-banner.png");
+    align-items: center;
+    border-radius: 1em;
+    margin-left: 9vh;
+    color:var(--secundary1_bg);
+    text-align: center;
+    justify-content: center;
+    padding-top: 4em;
+    background-size: cover;
+    color: white;
+    .banner-titulo{
+        font-size:1em;
+        font-family: var(--texto-poppins);
+        }
+    .banner-parrafo{
+        margin-left:1em ;
+        font-family:var(--texto-poppins);
+    }
+}
+.lema,.lemaa{
+    width: 10em;
+    height: 4em;
+    margin-top: 1em;
+    margin-left: 15em;
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--texto-catamara);
+}
+.lemaa{
+    color: #5956E9;
+    margin-top: -1vh;
+    height: 2em;
+}
+.estudios,.estudioss{
+    width: 69em;
+    height: 27em;
+    margin-left: 4em;
+    font-family: var(--texto-poppins);
+}
+.estudioss{
+    height: 39em;
+}
+.estudios_titulo{
+    width: 5em;
+    height: 2em;
+}
+.estudios_parrafo{
+    color: #5956E9;
+    margin-left: 1em;
+}
+.estilos_g{
+    display: flex;
+    width: 60em;
+    height: 2em;
+}
+.estudios_parrafoo{
+    width: 50em;
+    height: 16;
+    margin-top: -2em;
+}
+.estudios_boton:hover{
+    background-color: #5956E9;
+    color: aliceblue;
+}
+.estudios_boton{
+    position: relative;
+    left: 65em;
+    width: 35vh;
+    font-size: 1.9vh;
+    height: 3em;
+    border-radius: 2em;
+    background-color: white;
+}
+.estudios_linea{
+    margin-top: 3em;
+    width: 60em;
+    height: 0.1em;
+}
+.contacto{
+    width: 30em;
+    margin-left: 25em;
+    font-family: var(--texto-nunito);
+    height: 10em;
+    text-align: center;
+    .contacto_parra{
+        font-size: 2.2vh;
+        color: gray;
+    }
+    .contacto_but:hover{
+        background-color: #5956E9;
+    }
+    .contacto_but{
+        margin-top: 2em;
+        width: 10em;
+        height: 3em;
+        background-color: white;
+        font-size: 2vh;
+        border-radius: 2em;
+    }
+}
+.presentacion{
+    width: 50em;
+    height: 30em;
+    margin-left: 15em;
+    margin-top: 3em;
+    text-align: center;
+    background-color: #b4b4b4;
+    padding-top: 3em;
+    .presentacion_titulo{
+        font-family: var(--texto-nunito);
+        font-size: 2em;
+    }
+    .presentacion_person{
+        width: 17em;
+        height: 12em;
+    }
+    .presentacion_parrafo{
+        width: 35em;
+        margin-left: 13em;
+        margin-top: 2em;
+        height: 6em;
+        font-size: 2vh;
+        font-family: var(--texto-poppins);
+    }
+    .flecha_1:hover{
+        background-color: black;
+    }.flecha_2:hover{
+        background-color: black;
+    }
+    .flecha_1{
+        width: 3em;
+        height: 2em;
+        background-color: #5956E9;
+        margin-top: -11em;
+        align-content: center;
+        border-radius: 20em;
+        margin-left:3em ;
+    }
+    .flecha_2{ 
+        width: 3em;
+        height: 2em;
+        background-color: #5956E9;
+        margin-top: -2em;
+        align-content: center;
+        border-radius: 3em;
+        margin-left:42em ;}
+}
+.footer{
+    height: 90vh;
+    margin-top: 6vw;
+}
+.footer_informacion{
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.line_footer{
+    width: 80vw;
+    height:1px;
+    background: #797979;
+}
+.logo_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bt_footer{
+    width: 10vw;
+}
+.btn_footer{
+    width: 10vw;
+    height: 3vw;
+    border: 1px solid grey;
+    border-radius: 10vw;
+    background: white;
+    font-size: 0.8em;
+}
+.footer_item{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding:1vw 3vw ;
+}
+.item_footer{
+    display: flex;
+    gap: 8vw;
+}
+.Resources{
+    display: flex;
+    align-items: center;
+}
+.Resources_p{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.line_line{
+    width: 1px;
+    height: 17vw;
+    background: #797979;
+}
+.line_item{
+    width: 1px;
+    height: 20vw;
+    background: #797979;
+    margin-top: 1vw;
+}
+.bg_negro{
+    width: 35vw;
+    height: 44vh;
+    background: #2f2f2f;
+    border-radius: 1em;
+    display: flex;
+    padding: 2vw 1vw;
+    gap: 1em;
+}
+.popular_bg{
+    height: 36vh;
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Startup{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+.dolar{
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+}
+.peso{
+    margin-top: 1em;
+}
+.btn_bg{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 2em;
+    border: 0;
+    background: #797979;
+    font-size: 1em;
+}
+.opciones_bg{
+    height: 36vh;
+    width: 20vw;
+}
+.numero_tamaño{
+    font-size: 4em;
+}
+.opciones_bg{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+span{
+    color: rgb(0, 174, 255);
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.img_popular{
+    width: 10vw;
+    height: 8vh;
+}
+.vetor_chulos{
+    width: 1vw;
+}
+.top{
+    margin-top: -2em;
+}
+.blak{
+    color:black;
+    font-size: 1.1em;
+}
+.redes_s{
+    display: flex;
+    justify-content: space-between;
+}
+.redes_sociales{
+    display: flex;
+    gap: 1em;
+}
+.redes_sociales div img{
+    width: 2vw;
+}
